@@ -1,0 +1,41 @@
+*{padding: 0; margin: 0;}
+
+.logo{
+    max-width: 200px;
+    max-height: 200px;
+    
+}
+.logo-div{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.list{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 7vh;
+
+    border-style: solid;
+    border-radius: 10px;
+    
+
+    -webkit-box-shadow: 4px 7px 39px 0px rgba(0,0,0,0.54);
+    -moz-box-shadow: 4px 7px 39px 0px rgba(0,0,0,0.54);
+    box-shadow: 4px 7px 39px 0px rgba(0,0,0,0.54);
+}
+.list-padding{
+    max-width: 30vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20em
+}
+
+.btncrud{ 
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+    z-index:1;
+}
